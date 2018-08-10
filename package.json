@@ -1,7 +1,6 @@
 {
   "name": "apiDino",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node app.js"
@@ -16,5 +15,14 @@
     "knex": "^0.15.2",
     "morgan": "^1.9.0",
     "pg": "^7.4.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomwolverine/dino2api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tomwolverine/dino2api/issues"
+  },
+  "homepage": "https://github.com/Tomwolverine/dino2api#readme",
+  "description": ""
 }
