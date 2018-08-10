@@ -3,13 +3,13 @@
 module.exports = {
 
   development: {
-    client: 'pg,
+    client: 'pg',
     connection: 'postgresql:///dinotwo-sever'
   },
 
 
   production: {
-    client: 'postgresql',
+    client: 'pg',
     connection: process.env.DATEBASE_URL + '?ssl=true'
   }
 
