@@ -4,15 +4,13 @@ module.exports = {
 
   development: {
     client: 'pg,
-    connection: 'postgresql:///dino2-sever'
+    connection: 'postgresql:///dinotwo-sever'
   },
 
-  
 
   production: {
     client: 'postgresql',
     connection: process.env.DATEBASE_URL + '?ssl=true'
-   
   }
 
 };
